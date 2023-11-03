@@ -1,9 +1,17 @@
 /* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
-    height: 0;
-    overflow: hidden;
+    width: 70%; /* Adjust the container width as needed */
+    max-width: 800px; /* Set a maximum width for the container */
 }
 
 .video-container iframe {
