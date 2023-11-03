@@ -4,8 +4,8 @@ $(document).ready(function (){
     console.log("dentro do ready");
     $.ajax({
         type: "GET",
-        url: "target-file.csv",
-        dataType: "text",
+        url: "https://www.youtube.com/watch?v=SlF18-aTJiM",
+        dataType: "video",
         success: function(data) {processData(data);}
     });
 });
