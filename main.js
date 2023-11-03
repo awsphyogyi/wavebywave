@@ -5,7 +5,7 @@ $(document).ready(function (){
     $.ajax({
         type: "GET",
         url: "https://www.youtube.com/watch?v=SlF18-aTJiM",
-        dataType: "video",
+        dataType: "json",
         success: function(data) {processData(data);}
     });
 });
