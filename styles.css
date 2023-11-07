@@ -1,16 +1,23 @@
 /* styles.css */
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
-    width: 70%; /* Adjust the container width as needed */
-    max-width: 100% /* Set a maximum width for the container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
 }
