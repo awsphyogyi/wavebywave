@@ -20,4 +20,6 @@ body {
 .gallery img {
     max-width: 100%;
     height: auto;
+    width: 100%; /* Enforce a fixed width for all images */
+    height: auto; /* Allow the height to adjust proportionally */
 }
