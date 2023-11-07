@@ -4,7 +4,7 @@
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
     width: 70%; /* Adjust the container width as needed */
-    max-width: 800px; /* Set a maximum width for the container */
+    max-width: 100% /* Set a maximum width for the container */
 }
 
 .video-container iframe {
